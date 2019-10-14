@@ -6,25 +6,24 @@
 /**
  * Metadata version
  */
-$sMetadataVersion = '2.0';
+$sMetadataVersion = '2.1';
 
 /**
  * Module information
  */
 $aModule = array(
-    'id'          => 'linslinExampleModule',
+    'id'          => 'mdmodule',
     'title'       => array(
-        'de' => 'OXID6 example module',
-        'en' => 'OXID6 example module',
+        'de' => 'Moritz Modul',
+        'en' => 'Moritz Module',
     ),
     'description' => array(
-        'de' => '<h2>OXID6 example module</h2>',
-        'en' => '<h2>OXID6 example module</h2>',
+        'de' => '<h2>Enorm krankes Modul/h2>',
+        'en' => '<h2>Really impressive module</h2>',
     ),
     'thumbnail'   => 'out/pictures/linslin-org-logo.png',
     'version'     => '1.0.0',
-    'author'      => 'linslin.org UG | Codes and freedom',
-    'url'         => 'https://www.linslin.org',
+    'author'      => 'Moritz Demmer',
     'email'       => 'info@linslin.org',
     'extend'      => array(
     ),
